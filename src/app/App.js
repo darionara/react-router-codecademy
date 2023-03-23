@@ -25,6 +25,9 @@ function App() {
           <Route path='/articles'> 
             <Articles />
           </Route>
+          <Route path='/authors/:name'>
+            <Author />
+          </Route>
           <Route path='/about'> 
             <About />
           </Route>
@@ -36,9 +39,6 @@ function App() {
           </Route>
           <Route path='/profile'> 
             <Profile />
-          </Route>
-          <Route path='/authors/:name'>
-            <Author />
           </Route>
         </Switch>
       </main>
